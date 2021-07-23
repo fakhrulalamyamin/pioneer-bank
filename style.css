@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 100px;
+}
+
+.submit-area {
+    box-shadow: 5px 5px 10px grey;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.status {
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.deposit {
+    background-color: slateblue;
+}
+
+.withdraw {
+    background-color: lightsalmon;
+}
+
+.balance {
+    background-color: orange;
+}
